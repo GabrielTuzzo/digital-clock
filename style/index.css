@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Helvetica Neue";
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
+    height: 240px;
+    width: 550px;
+}
+.clock div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number {
+    font-size: 60px;
+    font-weight: 600;
+}
+.time {
+    font-size: 20px;
+}
